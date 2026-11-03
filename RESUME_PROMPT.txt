@@ -1,0 +1,31 @@
+# Resume ProjectM Metal Port Investigation
+
+## Current Status
+- ✅ Architecture fully documented in `INVESTIGATION.MD`
+- ✅ projectM-eval submodule checked out and analyzed
+- ✅ `HANDOFF.md` created with next steps
+- 🔄 Ready to start Metal port implementation
+
+## To Continue, Read:
+1. `INVESTIGATION.MD` - Full architecture analysis
+2. `HANDOFF.md` - Next steps and priorities
+
+## Immediate Next Step (Priority 1):
+Design and implement Metal abstraction layer to replace OpenGL.
+
+Start with: `src/libprojectM/Renderer/Platform/MetalResolver.hpp`
+
+## Key Files to Reference:
+- `src/libprojectM/Renderer/Platform/GLResolver.hpp` (if exists) or similar GL abstraction
+- `vendor/projectm-eval/api/projectm-eval.h` - Expression evaluator API
+- `src/libprojectM/Renderer/Shader.hpp` - Shader interface to mirror
+
+## Command to Start:
+```bash
+cd /Users/levaurei/Code/libs/projectm
+cat INVESTIGATION.MD  # Review architecture
+cat HANDOFF.md        # Review next steps
+```
+
+---
+*Paste this into a new session to continue work*
